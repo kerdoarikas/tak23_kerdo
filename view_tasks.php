@@ -31,6 +31,7 @@ include 'elements/head.php';
         <thead>
             <tr class="table-secondary">
             <th>#</th>
+            <th>Staatus</th>
             <th>Kirjeldus</th>
             <th>Lisatud</th>
             <th>Toimingud</th>
@@ -39,8 +40,21 @@ include 'elements/head.php';
         <tbody>
             <?php if(!empty($tasks)): ?>
                 <?php foreach($tasks as $task): ?>
+                    <?php
+                    if($task['status'] == 'ootel'){
+                        $taskBadge = 'bg-warning';
+                    }  
+                    if($task['status'] == 'tegemisel'){
+                        $taskBadge = 'bg-secondary';
+                    }  
+                    if($task['status'] == 'valmis'){
+                        $taskBadge = 'bg-success';
+                    }  
+                        
+                    ?>
                     <tr>
                         <td><?= $task['id'] ?></td>
+                        <td> <span class="badge <?= $taskBadge ?>"><?= $task['status'] ?></span></td>
                         <td><?= $task['text'] ?></td>
                         <td><?= $task['added_at'] ?></td>
                         <td></td>
