@@ -11,7 +11,7 @@
         <div class="col-12">
             <div class="w-100 d-flex align-items-center justify-content-center">
                 <div class="bg-white rounded shadow p-5 w-50">
-                    <h3>Registreeru</h3>
+                    <h3>Rekistreeru</h3>
                     <div class="form-group">
                         <label for="username">Kasutajanimi</label>
                         <input name="username" type="number" class="form-control" id="username">
