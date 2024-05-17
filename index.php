@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12">
             <div class="d-flex align-items-center justify-content-center">
-                <img src="static/img/logo.png" alt="logo" class="img-fluid">
+                <img src="static/img/logo.png" alt="logo" class="img-fluid w-50">
             </div>
         </div>
     </div>
