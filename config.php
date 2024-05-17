@@ -1,7 +1,7 @@
 <?php
 
 // Configuration
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localpost');
 define('DB_NAME', 'tak23');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
