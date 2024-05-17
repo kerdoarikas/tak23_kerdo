@@ -14,7 +14,7 @@
                     Logi sisse
                 </a>
                 <a href="register.php" class="btn btn-lg btn-light">
-                <i class="fa-regular fa-face-grin-tongue-squint me-1"></i>
+                <i class="fa-solid fa-right-to-bracket me-1"></i>
                     Registreeru
                 </a>
             </div>
